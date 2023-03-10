@@ -1,0 +1,35 @@
+.input--style ,.input--style:hover{
+    outline: none;
+    border: 1px solid #9E9E9E;
+    background: #FFFFFF;
+    border-radius: 5px !important;
+    padding: 10px 10px;
+}
+.label--error{
+    position: absolute;
+    background: white;
+    margin-right: 13px;
+    bottom: 54px !important;
+}
+.required{
+    color: #ff0505;
+    font-size: 16px;
+}
+#error{
+    color: #ff0505;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "IRANYEKANBOLD",sans-serif;
+}
+.label--div{
+    position: absolute;
+    background: white;
+    bottom: 34px;
+    margin-right: 13px;
+}
+.label--div label,.label--error label{
+    color: #616161;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "IRANYEKANMEDIUM",sans-serif;
+}

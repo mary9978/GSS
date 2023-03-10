@@ -1,0 +1,16 @@
+.style_captchaContainer__LdFYB{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center !important;
+}
+.style_captchaContainer{
+   width: 150px !important;
+    border-radius: 5px !important;
+}
+.input--captcha ,.input--captcha:hover{
+    outline: none;
+    border: 1px solid white !important;
+    background: #FFFFFF;
+    border-radius: 5px !important;
+    padding: 10px 10px;
+}
