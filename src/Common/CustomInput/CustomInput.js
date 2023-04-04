@@ -1,4 +1,3 @@
-import './custominput.css';
 const CustomInput =({formik,name,type,label})=>{
     return (
       <div className={"input-group my-4"}>
