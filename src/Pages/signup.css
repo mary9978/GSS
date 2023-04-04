@@ -1,21 +1,7 @@
-.signup--section{
-    background-color: #B0B0B0;
-}
-.bg--style{
-    background: linear-gradient(180deg, #00102F 0%, #0052EB 100%);
-    border-radius: 0px 50px 50px 0px;
-    position: relative;
-}
-.bg--form{
-    background-color: white;
-}
-.form--title{
+/* .form--title{
     font-size: 16px;
     color: #212121;
-    font-weight: 500;
-    font-family: "IRANYEKANMEDIUM",sans-serif;
-    text-align: center;
-}
+} */
 .form--login,.form--login .link{
     font-size: 14px;
     color:  #616161;
@@ -23,45 +9,29 @@
     font-family: "IRANYEKANMEDIUM",sans-serif;
     text-align: center;
 }
-.link{
+/* .link{
     text-decoration: none !important;
     color: #0050E5 !important;
-}
-.btn--signup{
-    background-color: #0050E5;
-    border-radius: 5px;
-    padding: 8px 16px 8px 16px;
-    outline: none;
-    border: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.div--captcha{
+} */
+/* .div--captcha{
     background-color:#F2F6FE ;
     border-radius: 5px !important;
-}
+} */
 .btn--recaptcha{
     outline: none;
     border: none;
     background: none !important;
 }
-.captcha--label{
+/* .captcha--label{
     color: #9E9E9E;
     font-size: 16px;
     font-weight: 400;
     font-family: "IRANYEKANMEDIUM",sans-serif;
-}
+} */
 .input--style ,.input--style:hover{
     outline: none;
     border: 1px solid #9E9E9E;
     background: #FFFFFF;
     border-radius: 5px !important;
     padding: 10px 10px;
-}
-@media screen and (min-width: 320px)and (max-width: 576px){
-    .bg--style{
-        display: none !important;
-    }
 }
