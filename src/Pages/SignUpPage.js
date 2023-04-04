@@ -1,4 +1,4 @@
-import './signup.css';
+// import './signup.css';
 import {RamznegarSif} from '../components/GetAllImages';
 import FormList from "../components/FormList/FormList";
 import ImageContainer from "../components/ImageContainer/ImageContainer";

@@ -1,23 +1,16 @@
-// import './captchadiv.css';
+import './captchadiv.css';
 import ClientCaptcha from "react-client-captcha";
 const CaptchaDiv =({formik,CaptchaValidationHandler})=>{
-    const CaptchaStyle = {
-      width: "150px !important",
-      borderRadius: "5px !important",
-      display: "flex !important",
-      justifyContent: "space-between",
-      alignItems: "center !important",
-    };
     return (
       <div className={"col-12 bg-captcha rounded p-3"}>
         <ClientCaptcha
-          width={150}                
+          width={150}
           fontSize={20}
           charsCount={5}
           borderRadius={5}
           fontFamily={"IRANYEKANMEDIUM,san-serif"}
           backgroundColor={"white"}
-          captchaClassName={CaptchaStyle}
+          captchaClassName={"style_captchaContainer"}
           captchaCode={(code) => CaptchaValidationHandler(code)}
         />
         <div className={"d-flex flex-column"}>
