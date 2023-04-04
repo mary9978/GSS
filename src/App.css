@@ -1,10 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 @font-face {
   font-family: "IRANYEKANLIGHT";
   src: local("IRANYEKANLIGHT"),
   url("../src/assets/fonts/Qs_Iranyekan light.ttf") format("ttf");
 }
-
-
 @font-face {
   font-family: "IRANYEKANMEDIUM";
   src: local("IRANYEKANMEDIUM"),
